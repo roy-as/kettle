@@ -1,0 +1,13 @@
+主要功能是分页全量同步sql数据:
+1.pageLoad.kjb为主流程，其中变量pageSize为每页的大小
+2.queryPageNum.ktr获取同步表的最大页数
+3.queryPage.ktr获取页码的表格式为:
+rowNum
+0
+100
+200
+300
+...
+4.loop_excute.kjb分页同步表数据
+5.setValue.ktr设置页变量
+6.excte.ktr同步表
